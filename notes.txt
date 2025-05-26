@@ -1,0 +1,67 @@
+GitHub
+
+to start a local repo
+
+git init
+
+to connect it to a online repo
+
+git remote set origin <url>
+
+to update the url
+
+git remote set-url origin <url>
+
+to check if the setting of a url was successful
+
+git remote -v
+
+to add a file into the local repo
+
+git add <file name>
+
+to commit a file to push 
+
+git commit -m "meaningful comment" <file name>
+
+to push local repo to online repo for first time
+
+git push --set-upstream origin master
+
+second time onwards
+
+git push
+
+to make a tag
+
+git tag <tag name>
+
+to make an annotated tag
+
+git tag -a <tag name> -m "meaningful message" 
+
+to push a tag
+
+git push --tags
+
+git push <tag name>
+
+to make a branch
+
+git branch <branch name>
+
+to change to another branch
+
+git checkout <branch name>
+
+to merge from another branch
+
+go to the branch that u want to merge from
+
+git merge <branch name>
+
+to add a submodule
+
+git submodule add <submodule url>
+
+
