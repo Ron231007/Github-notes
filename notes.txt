@@ -4,9 +4,9 @@ to start a local repo
 
 git init
 
-to connect it to a online repo
+to make a alias
 
-git remote set origin <url>
+git remote add origin <url>
 
 to update the url
 
